@@ -1,0 +1,48 @@
+.content-detail {
+    width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+
+    .introl-doctor{
+        width: 100%;
+        display: flex;
+
+
+        .item-left{
+            width: 120px;
+            height: 120px;
+            overflow: hidden;
+                       border-radius:50%;
+            
+            img{
+                width: 100%;
+            }
+        }
+        
+        .item-right{
+           width: calc(100% - 150px);
+           padding: 30px;
+
+        }
+
+
+    }
+    .introl-doctor-detail{
+        margin-top:30px
+    }
+
+
+    .content-schedule{
+        display: flex;
+        width: 100%;
+        padding: 20px 0;
+
+
+        .content-left{
+            width: 50%;
+        }
+        .content-right{
+            width: 50%;
+        }
+    }
+}

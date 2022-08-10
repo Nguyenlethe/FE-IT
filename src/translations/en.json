@@ -1,0 +1,76 @@
+{
+    "home-nav": {
+        "specialist": "Specialist",
+        "search-docter":"Find specialists",
+        "package":"Examination Package",
+        "generality":"General examination",
+        "health-facilities":"Medical Facilities",
+        "search-specialist":"Find specialists",
+        "doctor":"Doctor",
+        "find-docter":"Find a good doctor",
+        "support":"Support"
+    },
+    "banner": {
+        "title-one":"MEDICAL FOUNDATION",
+        "title-tow":"COMPREHENSIVE HEALTH CARE",
+        "placeholder":"Book an appointment",
+        "special":"Specialist Examination",
+        "remote":"Telemedicine Examination",
+        "general":"General Examination",
+        "medical":"Medical Examination ",
+        "mental":"Mental Health",
+        "dental":"Dental Examination",
+        "surgery":"Surgical Package",
+        "medical-products":"Medical Products Tee"
+    },
+    "specalty": { 
+        "pular":"Popular Specialization",
+        "See-more":"See more",
+        "consultation":"Remote therapy consultation",
+        "outstanding": "Outstanding Medical Facility",
+        "System": "Thu Cuc Health System",
+        "featured": "GSTS Nguyễn Văn A,  Specialization I",
+        "sub-featured": "Heart",
+        "Last-Week": "Last Week's Featured Doctor",
+        "Handbook": "Handbook",
+        "Handbook-sub":"Experience and notes on testing at Diag Cao Thang Center",
+        "all-posts": "All Posts",
+        "welcome": "Welcome"
+    },
+    "menu": {
+        "admin": {
+            "manage-user":"User management",
+            "manage-doctor":"Admin management",
+            "manage-admin":"Doctor management",
+            "crud":"CRUD user",
+            "crud-redux":"CRUD redux",
+            "clinic":"Clinic",
+            "manage-clinic":"Clinic manage",
+            "specialty":"Specialty",
+            "manage-specialty":" Specialty manage",
+            "handbook":"Handbook",
+            "manage-handbook":"Handbook manage"
+        },
+        "doctor": {
+            "manage-schedule": "Doctor Manage Schedule",
+            "manage-patient": "Doctor Manage patient"
+
+        }
+    },
+    "manage-user": {
+        "manage-redux":"Redux user manage",
+        "add":"Add New User",
+        "email":"Email",
+        "password":"Password",
+        "fristName":"FristName",
+        "lastName":"LastName",
+        "address":"Address",
+        "phone":"Phone Number",
+        "gender":"Gender",
+        "role":"Role",
+        "save":"Save User",
+        "change":"Change User",
+        "avata":"Avata",
+        "positionld": "Positionld"
+    }
+}

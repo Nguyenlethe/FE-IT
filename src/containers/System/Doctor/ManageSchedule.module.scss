@@ -1,0 +1,50 @@
+
+.ManageSchedule{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .ManageSchedule-select{
+        width: 50%;
+
+    }
+    
+    .ManageSchedule-select-date{
+        width: 40%;
+        margin-left: 10%;
+    }
+
+    .ManageSchedule-select-time{
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+
+
+     
+        .ManageSchedule-select-time-btn{
+            min-width: 122px;
+            display: block;
+            text-align: center;
+            border: 1px solid #ccc;
+            outline: none;
+            margin: 16px;
+            border-radius: 8px;
+            padding: 6px 13px;
+            color: rgb(255, 255, 255);
+
+            &:hover{
+                background-color: rgb(4, 102, 167);
+            }
+        }
+    }
+}
+
+.title{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}

@@ -1,0 +1,23 @@
+
+
+.form{
+
+
+
+
+    .item-input{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        margin:0 0 20px 0 ;
+    }
+}
+.preview-image{
+    width: 50%;
+    height: 200px;
+    border: 1px solid #ccc;
+
+    img{
+        width: 100%;
+    }
+}

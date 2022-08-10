@@ -1,0 +1,58 @@
+
+
+.ExtraInfo{
+    margin: 20px 12px;
+    // max-width: 450px;
+    width: 100%;
+   
+    .down-coin{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        
+        .down-haeding{
+            font-weight: 600;
+        }
+
+        h6{
+            margin: 0 8px 0 0;
+
+            &:last-child{
+                font-weight: 600;
+                color: rgb(0, 132, 184);
+            }
+        }
+    }
+
+    .tabel{
+        display: flex;
+        align-items: center;
+        background-color: rgb(217, 216, 216);
+        padding: 12px ;
+
+
+        h6{
+
+            &:last-child{
+                width: 30%;
+                float: right;
+                text-align: end;
+                display: block;
+                font-weight: 600;
+                color: rgb(0, 132, 184);
+            }
+        }
+    }
+
+    .tabel-sub{
+        margin: 8px 0 ;
+        padding: 12px;
+        background-color: #eee;
+    }
+
+    .close-tabel{
+        font-weight: 600;
+        color: rgb(0, 132, 184);
+        cursor: pointer;
+    }
+}

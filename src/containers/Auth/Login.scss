@@ -1,0 +1,134 @@
+
+
+.login-bgr{
+    background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+    font-family: "work sans";
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.materialContainer{
+    width: 450px;
+    display: block;
+    margin: auto;
+    padding: 30px 12px 50px 12px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 3px rgb(88, 88, 88);
+    border-radius: 28px;
+    
+
+
+
+    .title{
+        font-size: 32px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
+    }
+
+    .input{
+        width: 100%;
+        margin: 0 0 30px;
+        display: flex;
+        align-items:center;
+        flex-wrap: wrap;
+
+        .item-input{
+            width: 100%;
+            position: relative;
+        }
+        
+        
+        label{
+            font-size:22px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+        }
+        input{
+            width: 100%;
+            height: 46px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: transparent;
+            overflow: none;
+            padding-left: 12px;
+            font-size:22px;
+            font-weight: 600;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        i{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 12px;
+            font-size: 24px;
+        }
+    }
+
+    .button{
+        width: 100%;
+
+        button{
+            outline: none;
+            border: none;
+            width: 100%;
+            border: 1px solid #ccc;
+            font-weight: 600;
+            font-family: 'Courier New', Courier, monospace;
+            box-shadow: 1px 1px 10px 3px rgb(225, 225, 225);
+            border-radius: 28px;
+            font-size: 26px;
+            color:rgb(0, 0, 0);
+            background: rgb(34,193,195);
+            background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+        }
+    }
+    .forgot{
+        font-size:22px;
+        color:rgb(141, 141, 141);
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        margin: 20px 0;
+    }
+    .list-icon{
+        display: flex;
+        align-items: center;
+        width: 30%;
+        justify-content:space-between;
+        margin: auto;
+        padding-top: 30px;
+
+        
+        .item.google{
+            background-color: rgb(215, 43, 9);
+        }
+
+        .item{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            background-color: rgb(0, 100, 183);
+            border-radius: 28px;
+            i{
+                display: block;
+                text-align: center;
+                font-size:30px;
+                color: white;
+            }
+        }
+    }
+    .showErr{
+        font-size: 20px;
+        color:red;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+}

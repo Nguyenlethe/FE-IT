@@ -1,0 +1,76 @@
+{
+    "home-nav": {
+        "specialist": "Chuyên Khoa",
+        "search-docter":"Tìm các bã sĩ chuyên khoa",
+        "package":"Gói Khám",
+        "generality":"Khám tổng quát",
+        "health-facilities":"Cơ Sở Y Tế",
+        "search-specialist":"Tìm các bã sĩ chuyên khoa",
+        "doctor":"Bác Sĩ",
+        "find-docter":"Tìm Bác Sĩ Giỏi",
+        "support":"Hỗ Trợ"
+    },
+    "banner": {
+        "title-one":"NỀN TẢNG Y TẾ",
+        "title-tow":"CHĂM SÓC SỮ KHỎE TOÀN DIỆN",
+        "placeholder":"Đặt lịch khám bệnh",
+        "special":"Khám Chuyên Khoa",
+        "remote":"Khám Từ Xa",
+        "general":"Khám Tổng Quát",
+        "medical":"Sét Nghiệm Y Học",
+        "mental":"Sức Khỏe Tinh Thần",
+        "dental":"Khám Nha Khoa",
+        "surgery":"Gói Phẫu Thuât",
+        "medical-products":"Sản Phẩm Y Tế"
+    },
+    "specalty": { 
+        "pular":"Chuyên Khoa Phổ Biến",
+        "See-more":"Xem Thêm",
+        "consultation":"Tư vấn trị liệu từ xa",
+        "outstanding": "Cơ Sở Y Tế Nổi Bật",
+        "System": "Hệ Thống Y Tế Thu Cúc",
+        "featured": "GSTS Nguyễn Văn A, Chuyên Khoa I",
+        "sub-featured": "Tim Mạch",
+        "Last-Week": "Bác Sĩ Nổi Bật Tuần Qua",
+        "Handbook": "Cẩm Nang",
+        "Handbook-sub":"Kinh nghiệm và lưu ý xét nghiệm tại Trung tâm Diag Cao Thắng",
+        "all-posts": "Tất cả bài viết",
+        "welcome": "Xin Chào"
+    },
+    "menu": {
+        "admin": {
+            "manage-user":"Quản lý người dùng",
+            "manage-doctor":"Quản lý Bác Sĩ",
+            "manage-admin":"Quản lý Admin",
+            "crud":"CRUD user",
+            "crud-redux":"CRUD redux",
+            "clinic":"Phòng Khám",
+            "manage-clinic":"Quản Lý Phòng Khám",
+            "specialty":"Chuyên Khoa",
+            "manage-specialty":"Quản Lý Chuyên Khoa",
+            "handbook":"Cẩm Nang",
+            "manage-handbook":"Quản Lý Cẩm Nang"
+        },
+        "doctor": {
+            "manage-schedule": "QL Kế Hoạch Khám Bệnh ",
+            "manage-patient": "QL Bệnh Nhân Khám Bệnh"
+
+        }
+    },
+    "manage-user": {
+        "manage-redux":"Quản Lý Người Dùng Redux",
+        "add":"Thêm Mới Người Dùng",
+        "email":"Email",
+        "password":"Mật khuẩu",
+        "fristName":"Họ",
+        "lastName":"Tên",
+        "address":"Địa Chỉ",
+        "phone":"Số Điện Thoại",
+        "gender":"Giới Tính",
+        "role":"Quyền",
+        "save":"Thêm Mới",
+        "change":"Cập Nhật",
+        "avata":"Ảnh Đại Diện",
+        "positionld": "Chức Vụ"
+    }
+}

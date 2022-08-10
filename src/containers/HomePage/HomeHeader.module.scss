@@ -1,0 +1,234 @@
+.container{
+    padding: 10px 0;
+    
+
+    .content{
+        height: 58px;
+        width: 1170px;
+        padding: 0 15px;
+        margin: auto;
+
+        .nav{
+            height: 100%;
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            align-items:center;
+            justify-content:space-between;
+        }
+    }
+
+
+    .banner{
+        background: url('../../assets/bookingcare-cover-4.jpg') center center no-repeat;
+        width: 100%;
+        height: 80vh;
+
+
+        .content-banner{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            height: 60vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(255, 255, 255, 0.1));
+            
+            
+            h4{
+                font-size: 30px;
+                color: #fff;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+                text-shadow: 1px 1px 1px #333;
+            }
+            h3{
+                font-size: 34px;
+                font-weight: 600;
+                color: #fff;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+                text-shadow: 1px 1px 1px #333;
+            }
+            .search-banner{
+                display: flex;
+                align-items: center;
+                background: #f7d800;
+                color: #fff;
+                outline: none;
+                border-radius: 25px;
+                border: 1px solid transparent;
+                line-height: 50px;
+                height: 50px;
+                position: relative;
+                width: 456px;
+                padding: 0 4px;
+    
+                button{
+                    background-color:transparent;
+                    border: none;
+                    outline: none;
+
+                    i{
+                        width: 46px;
+                        height: 46px;
+                        line-height: 50px;
+                        color: #333;
+                        text-align: center;
+                    }
+                }
+                .input{
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    width: 100%;
+                }
+            }
+        }
+        .list-options{
+            width: 100%;
+            display: flex;
+            height: 20vh;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 1));
+            
+
+            .content-options{
+                width: 1170px;
+                padding: 0 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: auto;
+        
+                .options-item{
+                    display: block;
+                    text-decoration: none;
+                    
+                    .img{
+                        background: url('../../assets/133537-khamchuyenkhoa.png');
+                        background-color: white;
+                        border-radius: 50%;
+                        -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+                        -webkit-box-shadow: 1px 2px 4px rgb(0 0 0 / 50%);
+                        box-shadow: 0px 1px 2px rgb(0 0 0 / 50%);
+                        width: 50px;
+                        height: 50px;
+                        margin: 2px auto;
+                        background-size: 32px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                    p{
+                        font-size: 16px;
+                        width: 80%;
+                        margin: auto;
+                        text-align: center;
+                        padding: 5px 5px;
+                        color: #333;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav{
+
+    .logo-menu{
+        display: flex;
+        align-items:center;
+        height: 100%;
+
+        i{
+            color: #3f3f3f;
+            font-size: 22px;
+            margin-right: 20px;
+        }
+        
+        .logo-nav{
+            background: url('../../assets/logo.svg') center center no-repeat;
+            width: 150px;
+            height: 48px;
+        }
+    }
+}
+
+.content-nav{
+    display: flex;
+    align-items:center;
+
+    .text-nav{
+        text-decoration: none;
+        height: 100%;
+        display: block;
+        margin: 0 20px;
+       
+
+
+        h4{
+            color: rgb(19, 19, 19);
+            font-weight: bold;
+            font-size: 14px;
+        }
+        span{
+            font-weight: lighter;
+            font-size: 12px;
+            display: block;
+            color: rgb(125, 125, 125);
+        }
+    }
+}
+
+.help{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+
+    .list-help{
+        display: flex;
+        align-items: center;
+
+        i{
+            font-size: 14px;
+            margin-right: 4px;
+        }
+        a{
+            font-size: 14px;
+            font-weight: 600;
+            color:rgb(113, 112, 112);
+            text-decoration: none;
+        }
+    }
+
+    .language{
+        margin-right: 22px;
+        display: flex;
+        align-items: center;
+
+        span{
+            font-size: 14px;
+            display: block;
+            color:rgb(136, 133, 133);
+            margin: -4px 6px 0 6px;
+        }
+        
+
+        h4{
+            margin: 0;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            color:rgba(80, 79, 79, 0.601);
+        }
+        h4.active{
+            font-weight: 600;
+            color:rgb(255, 0, 0);
+        }
+    }
+    
+}
+
+
+
+

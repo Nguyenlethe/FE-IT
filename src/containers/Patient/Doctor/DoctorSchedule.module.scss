@@ -1,0 +1,68 @@
+.select{
+    width: 160px;
+}
+
+.list-schedule {
+    border-right: 1px solid rgb(27, 58, 24);
+
+
+
+    .list-icon{
+        display: block;
+        padding: 12px 0;
+
+
+        i{
+            font-size:20px;
+            color: #2d645a;
+        }
+        span{
+            font-size: 14px;
+            margin: 0 12px;
+        }
+    }
+
+
+    .list-content{
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+        .content-shecdule{
+            min-width: 176px;
+            display: block;
+            padding: 4px 12px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: #337ab7;
+            text-transform: uppercase;
+            border-radius: 50px;
+            margin: 6px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            background-color: #d9eaf7;
+            box-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+
+
+            &:hover{
+                color: #ffffff;
+                background-color: #005698;
+            }
+        }
+        .content-shecdule-nodata{
+            color: red;
+        }
+    }
+    .content-shecdule-said{
+        width: 100%;
+        margin-bottom: -26px;
+        margin-top: 20px;
+        font-weight: 600;
+        color:rgb(0, 90, 126);
+        cursor: pointer;
+    }
+}

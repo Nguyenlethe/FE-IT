@@ -1,0 +1,26 @@
+
+
+.content{
+    width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+
+    .content-select{
+        width: 120px;
+    }
+    .item{
+        width: 100%;
+        display: flex;
+        box-shadow: 1px 1px 6px 4px #ccc;
+        border-radius: 12px;
+        margin: 20px 0;
+        padding: 12px 0;
+
+        .item-right{
+            width: 50%;
+        }
+        .item-left{
+            width: 50%;
+        }
+    }
+}
